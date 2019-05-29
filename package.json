@@ -1,12 +1,14 @@
 {
     "name": "use-pwned-passwords",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Custom React hook for querying the HaveIBeenPwned api",
     "main": "dist/usePwnedPasswords.js",
     "author": "Matt Kane <m@mk.gg>",
     "license": "MIT",
     "files": [
-        "dist"
+        "dist/usePwnedPasswords.js",
+        "dist/usePwnedPasswords.d.ts",
+        "dist/usePwnedPasswords.js.map"
     ],
     "scripts": {
         "build": "parcel build usePwnedPasswords.ts --out-dir=dist",
