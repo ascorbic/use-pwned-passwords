@@ -1,0 +1,33 @@
+{
+    "name": "use-pwned-passwords",
+    "version": "1.0.0",
+    "description": "Custom React hook for querying the HaveIBeenPwned api",
+    "main": "dist/usePwnedPasswords.js",
+    "author": "Matt Kane <m@mk.gg>",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "parcel build usePwnedPasswords.ts --out-dir=dist",
+        "build-declaration": "tsc --emitDeclarationOnly",
+        "prepublishOnly": "yarn build && yarn build-declaration",
+        "demo": "parcel example/index.html"
+    },
+    "devDependencies": {
+        "@types/react": "^16.8.19",
+        "@types/react-dom": "^16.8.4",
+        "eslint": "^5.16.0",
+        "parcel-bundler": "^1.12.3",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "typescript": "^3.4.5"
+    },
+    "peerDependencies": {
+        "react": ">16"
+    },
+    "repository": "git@github.com:ascorbic/use-pwned-passwords.git",
+    "dependencies": {
+        "hibp": "^7.5.1"
+    }
+}
