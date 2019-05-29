@@ -11,10 +11,11 @@
         "dist/usePwnedPasswords.js.map"
     ],
     "scripts": {
-        "build": "parcel build usePwnedPasswords.ts --out-dir=dist",
+        "build": "parcel build usePwnedPasswords.ts",
         "build-declaration": "tsc --emitDeclarationOnly",
         "prepublishOnly": "yarn build && yarn build-declaration",
-        "demo": "parcel example/index.html"
+        "demo": "parcel example/index.html",
+        "build-demo": "parcel build example/index.html --out-dir public"
     },
     "devDependencies": {
         "@types/react": "^16.8.19",
