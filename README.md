@@ -1,6 +1,6 @@
 ## usePwnedPasswords custom hook
 
-This is a custom React hook that adds support for checking password fields against the Have I Been Pwned [passwords API](https://haveibeenpwned.com/Passwords).
+This is a custom React hook that adds support for checking password fields against Trow Hunt's Have I Been Pwned [passwords API](https://haveibeenpwned.com/Passwords). Uses the [hibp module](https://github.com/wKovacs64/hibp) for the heavy lifting.
 
 ### Usage
 
@@ -30,3 +30,7 @@ export const App = () => {
 The password is checked onBlur. The `usePwnedPasswords()` function can optionally take a config object. Currently there is one option you can set: `defaultValue` which sets the default value of the password field, but I'm not sure why you would set that.
 
 ### Demo
+
+[Open demo](https://use-pwned-passwords.netlify.com/).
+
+To run locally, run `yarn demo`
