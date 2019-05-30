@@ -1,6 +1,6 @@
 ## usePwnedPasswords custom hook
 
-This is a custom React hook that adds support for checking password fields against Trow Hunt's Have I Been Pwned [passwords API](https://haveibeenpwned.com/Passwords). Uses the [hibp module](https://github.com/wKovacs64/hibp) for the heavy lifting.
+This is a custom React hook that adds support for checking password fields against Troy Hunt's Have I Been Pwned [passwords API](https://haveibeenpwned.com/Passwords). Uses the [hibp module](https://github.com/wKovacs64/hibp) for the heavy lifting.
 
 ### Usage
 
