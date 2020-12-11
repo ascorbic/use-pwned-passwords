@@ -2797,9 +2797,9 @@ inherits@2.0.1:
   integrity sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 inquirer@^6.2.2:
   version "6.3.1"
@@ -5448,13 +5448,6 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
-
-use-pwned-passwords@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/use-pwned-passwords/-/use-pwned-passwords-1.0.0.tgz#8fcb452ce74c7ff3932c55d7f5927637c037a003"
-  integrity sha512-8Aura24zG7VE9AdUcBplP10O7ilr0apcB+fflY3eOj+fO9vZgKLu1PXc7IPrYjS0sjz/R5yQsMw/7yyEpSmKGA==
-  dependencies:
-    hibp "^7.5.1"
 
 use@^3.1.0:
   version "3.1.1"
